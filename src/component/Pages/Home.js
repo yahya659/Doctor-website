@@ -37,7 +37,7 @@ function Home() {
       {/* About-us */}
       <About />
       <div className="container">
-        <p className=" Latest-News">Our Latest News :</p>
+        <p className=" Latest-News">Our News :</p>
       </div>
 
       <div className="con">
