@@ -189,8 +189,8 @@ header svg {
 }
 /* @media (max-width:500px) { */
 
-/* @media only screen and (max-width: 500px) {
-  .con {
-    display: none;
+@media only screen and (max-width: 600px) {
+  .Latest-News {
+    font-size: 30px;
   }
-} */
+}
