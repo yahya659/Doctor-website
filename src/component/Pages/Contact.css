@@ -1,0 +1,217 @@
+form {
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+}
+.contact-us {
+  border-radius: 2px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+
+form .form-control {
+  border-radius: 2px;
+  box-shadow: 12px 12px 2px 1px rgba(153, 153, 198, 0.2);
+  /* background-color:var(--btn-color); */
+  background-color: #ccc;
+  box-shadow: #333;
+}
+form p {
+  color: red;
+  background-color: rgb(223, 135, 135);
+  width: 70%;
+  height: 40px;
+  border: 1px solid red;
+  line-height: 40px;
+  padding: 0px 5px;
+}
+form input,
+form textarea,
+form select {
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border: 3px solid #ccc;
+  padding: 10px;
+  margin: 30px 0px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: #333;
+  font-size: 17px;
+  outline: none;
+}
+form input:hover {
+  border: 3px solid #565acf;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+}
+form button {
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--orang-color) !important;
+  border: 5px solid var(--orang-color) !important;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+form textarea {
+  height: 120px;
+}
+form button:hover,
+form textarea:hover {
+  background-color: transparent !important ;
+  color: var(--orang-color);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.sids {
+  background: url("../../Assets/imgg2.jpg");
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 4px;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+  margin-top: 1px;
+}
+.sids .overlay {
+  background-color: #565acf;
+  border-radius: 8px;
+  opacity: 0.7;
+  padding: 25px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 4px;
+}
+.sids .overlay h3 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 35px;
+}
+.sids .overlay li {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+.sids .overlay li svg {
+  margin-right: 15px;
+}
+.sids .overlay hr {
+  width: 70%;
+  color: #fff;
+  background-color: #fff;
+}
+.sids .overlay p {
+  color: #fff;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+.sids .overlay ul {
+  padding: 0px;
+}
+.sids .overlay ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.sids .overlay ul li svg {
+  color: #565acf;
+  padding-left: 9px;
+}
+
+     
+
+.contact-number {
+  box-shadow: 12px 12px 2px 1px rgba(216, 216, 220, 0.2);
+}
+/* Contact Number */
+
+.contact-number img {
+  width: 50px;
+  height: auto;
+  background-color: bisque;
+  border: 1px solid bisque;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: 0.2s ease all;
+}
+.contact-number img:hover {
+  width: 60px;
+  height: auto;
+}
+
+.contact-p {
+  color: #1f2278;
+  line-height: 40px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.contact-pp {
+  margin-left: 30px;
+  color: var(--orang-color);
+}
+/* contact-emaiil addres */
+
+.contact-emailaddrees {
+  box-shadow: 12px 12px 2px 1px rgba(216, 216, 220, 0.2);
+}
+
+.contact-emailaddrees img {
+  width: 50px;
+  height: auto;
+  background-color: bisque;
+  border: 1px solid bisque;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: 0.2s ease all;
+}
+.contact-emailaddrees img:hover {
+  width: 60px;
+  height: auto;
+}
+/*contact-addrees  */
+.contact-addrees {
+  box-shadow: 12px 12px 2px 1px rgba(216, 216, 220, 0.2);
+}
+.contact-addrees img {
+  width: 50px;
+  height: auto;
+  background-color: bisque;
+  border: 1px solid bisque;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: 0.2s ease all;
+}
+.contact-addrees img:hover {
+  width: 60px;
+  height: auto;
+}

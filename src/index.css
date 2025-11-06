@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Piedra", serif;
+  background-color: #fff !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #1f2278;
+  --orang-color: #f17732;
+  --btn-color: #565acf;
+}
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+  margin-top: 50px;
+  
+}
+
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p {
+  line-height: 20px;
+}
+input {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: darkgreen;
+  font-size: 10px;
+  font-family: "Piedra", serif;
+}
+/* start css footer */
+
+.footerlogo {
+  width: auto;
+  height: 40px;
+  margin: 15px 0px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+
+  font-size: 17px;
+}
+.footer-p {
+  font-size: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.footer-conact {
+  display: flex;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.footer-icon {
+  margin: 7px 20px 0px 0px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--orang-color);
+  border: 1px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.footer-icon svg {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.footer-text h6 {
+  color: var(--orang-color);
+  font-size: 18px;
+  
+}
+.footer-text h4 {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-top: 10px;
+}
+.footer-h {
+  color: var(--main-color);
+  font-size: 35px;
+  margin: 15px 0px;
+
+}
+.footer-ul {
+  margin-top: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(216, 216, 220, 0.2);
+}
+.footer-ul li {
+  margin-top: 10px;
+}
+.footer-ul li a {
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.footer-form {
+  margin: 15px 0px;
+}
+.footer-form input {
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  width: 100%;
+}
+.footer-form .footer-btn {
+  width: 100%;
+  background-color: var(--orang-color) !important;
+  border: 1px solid var(--orang-color) !important;
+  color: #ccc;
+}
+.footer-scroul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-button{
+    text-align: center;
+    margin-top:25px ;
+    padding: 10px 0px;
+    color: var(--main-color);
+    border-top:1px solid black ;
+}
+footer .footer-button span{
+    display: block;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,196 @@
+header {
+  margin-top: 0px;
+  background-color: #fff;
+}
+header .header-box {
+  position: relative;
+  max-width: 100%;
+}
+header .row {
+  margin: 50px 0px;
+}
+header span {
+  display: block;
+  font-size: 100px;
+  color: #fff;
+  -webkit-text-stroke: 1px var(--orang-color);
+  -moz-text-stroke: 1px var(--orang-color);
+  -o-text-stroke: 1px var(--orang-color);
+  animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+  /* margin-left: 500px; */
+}
+header .row h5 {
+  color: var(--btn-color);
+  font-size: 20px;
+  margin: 40px 0px 10px 0px;
+  text-shadow: 1px 1px var(--btn-color);
+}
+header .row h2 {
+  color: var(--main-color);
+  font-size: 50px;
+  margin: 30px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+header button {
+  background-color: var(--orang-color);
+  width: 200px;
+  height: 60px;
+  border: 1px solid var(--orange-color) !important;
+  margin-top: 20px;
+}
+header button a {
+  color: #fff;
+  font-size: 17px;
+  transition: 0.2s ease all;
+}
+header button:hover a {
+  color: #fff;
+}
+header button:hover {
+  opacity: 0.6;
+}
+header img {
+  max-width: 100%;
+  width: 430px;
+  height: auto;
+  animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+  transition: 0.4s ease all;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes mover {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-o-keyframes mover {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+header svg {
+  color: var(--btn-color);
+  font-size: 60px;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+}
+/* About-Us */
+.aboutimg {
+  margin: 5px;
+}
+.aboutimg img {
+  width: auto;
+  height: 300px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 30px;
+  margin: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.aboutimg .imgg2 {
+  width: auto;
+  height: 200px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 30px;
+  margin: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.aboutimg2 img {
+  width: auto;
+  height: 250px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.aboutimg2 h3 {
+  float: right;
+  border: 1px solid var(--orang-color);
+  border-top-left-radius: 80px;
+  color: var(--main-color);
+  margin-right: 90px;
+  font-size: 100px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(183, 188, 192);
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+}
+.about-2 {
+  background-color: aliceblue;
+  box-shadow: 12px 12px 2px 1px rgba(161, 161, 167, 0.2);
+  border-radius: 20px 10px;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+.about-2 h2 {
+  font-size: 40px;
+  color: var(--orang-color);
+  font-style: var(--btn-color);
+  width: 50%;
+}
+.about-2 h3 {
+  font-size: 30px;
+  font-style: var(--main-color);
+  margin-top: 20px;
+}
+.about-2 p {
+  font-style: var(--main-color);
+  margin-top: 10px;
+}
+
+.select-order {
+  background-color: rgb(40, 211, 211);
+  width: 50%;
+  height: auto;
+  margin-top: 3%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.Latest-News {
+  text-align: center;
+  font-size: 50px;
+  color: var(--orang-color);
+  margin-top: 50px;
+}
+/* @media (max-width:500px) { */
+
+/* @media only screen and (max-width: 500px) {
+  .con {
+    display: none;
+  }
+} */
