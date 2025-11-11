@@ -11,7 +11,7 @@
 - **Routing:** Next.js App Router  
 - **State Management:** useState, useContext, (اختياري: Redux/Zustand)  
 - **Forms:** React Hook Form أو Formik  
-- **API Fetching:** fetch / axios  
+- 
 - **Deployment:** Vercel أو أي خادم Node.js  .
 
 ---
